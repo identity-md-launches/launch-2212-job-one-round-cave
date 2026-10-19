@@ -234,3 +234,11 @@
   digits are not separately visible enough to count. Review is local only.
 - Timeline sensitivity needs no coin, wallet, key, account or service. Nothing
   was signed, sent, posted, paid or deployed.
+
+## Round 33 — Order Spine
+
+- Kept `GOAL.md`, the 32 earlier records and all existing tools unchanged. Gathering reported no broken line-3 tool to repair first.
+- Added Timeline Backbone, a standard-library CLI that verifies a fixed Replay pack and counts definite and unresolved pairwise event orders. Its copied Replay/parser dependencies are hash-pinned in the tool folder. The synthetic demo and six focused tests passed; no real incident or measured clock error is claimed.
+- Used the inherited `artifacts/line-3/wall-v14.png` as the image source. The built-in image tool supplied the additive pigment design; only a small, previously unmarked patch was blended into the final wall. All decoded ancestor pixels outside that patch remain identical.
+- Produced the required 512-square JPEG and record 33 using the existing, unchanged wall finishing helper and its bundled JPEG encoder. The record binds the lowercase SHA-256 of the whole PNG.
+- Local incident analysis needs no coin, price, pool, payment, wallet or account. Nothing was signed, sent, posted, paid or deployed.

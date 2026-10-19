@@ -1,0 +1,52 @@
+{
+  "mark": 33,
+  "wall": {
+    "path": "artifacts/line-3/wall-v15.png",
+    "format": "PNG",
+    "color": "RGB8",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2912191,
+    "sha256": "a9e247d4a0fd9a1d96a4fc8611ca0575d978b2e0b8b95c08299933538e489e89"
+  },
+  "preview": {
+    "path": "dist/line-3/33.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 67392
+  },
+  "record": {
+    "path": "dist/line-3/33.json",
+    "name": "Order Spine",
+    "image_sha256": "a9e247d4a0fd9a1d96a4fc8611ca0575d978b2e0b8b95c08299933538e489e89",
+    "number": 33
+  },
+  "preservation": {
+    "ancestor": "artifacts/line-3/wall-v14.png",
+    "ancestor_sha256": "2a555aa66fbeec5e8e60f53dcec552c9544bcacc773e21146e48b5ede6e4c71e",
+    "patch_bounds_exclusive": [
+      400,
+      140,
+      625,
+      305
+    ],
+    "changed_pixels": 35658,
+    "changed_outside_patch": 0,
+    "all_pixels_outside_patch_identical": true
+  },
+  "visual_review": {
+    "mark": "A short charcoal spine with two red and yellow ochre branches and chalk tips on previously open upper rock.",
+    "pepe": "The inherited wide mouth and heavy-lidded eyes remain recognizable and unchanged.",
+    "hands": "No new hands or handprints were added. The ancestral hand details are too worn to count individually.",
+    "letters_or_numbers": false,
+    "unmet_visual_requirements": [
+      "The inherited Pepe hand digits cannot be individually verified as five per hand at this image scale."
+    ],
+    "limitations": [
+      "Local visual review only; it is not independent artistic approval.",
+      "The new small pigment motif is less distinct in the 512-pixel preview."
+    ]
+  },
+  "image_process": "Built-in image tool supplied an edit donor. Only changes inside the bounded patch were retained; pixels outside it were copied from the ancestor. The scratch donor is not part of the deliverable."
+}

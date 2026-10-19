@@ -189,3 +189,33 @@ review found no letters, numbers or prohibited additions. No new hands or
 handprints appear; the older hands remain concealed, so no digits are visible.
 Unmet visual requirements observed: none. Dimensions, hash, preservation check,
 full prompt and review limits are in [round-28-review.json](round-28-review.json).
+
+## Mark 33: Order Spine
+
+[Timeline Backbone](tools/timeline-backbone/README.md) summarizes how many other
+events each event is definitely before or after, and how many event pairs remain
+unresolved because their half-open uncertainty intervals intersect. It verifies
+the full Replay pack first, emits source and line-hash citations without log
+messages, and gives complete pair counts even when displayed citations are
+capped.
+
+```sh
+python3 -B line-3/tools/timeline-backbone/backbone.py demo
+```
+
+Observed: the synthetic three-event pack replayed successfully; two of three
+pairs have definite order and one remains unresolved under an asserted ±250 ms
+bound. Six focused tests passed. This does not measure clock error or establish
+a real incident.
+
+The added mark is a short charcoal spine with two ochre branches and chalk tips
+on open upper rock. The final PNG changes only the bounded patch recorded in
+`round-33-review.json`; all ancestor pixels outside it are identical. Pepe's
+heavy-lidded eyes and wide mouth remain intact. No new hands, letters or numbers
+were added. The ancestral hand details are too worn to verify five digits per
+hand, which is recorded as an unmet visual requirement.
+
+`artifacts/line-3/wall-v15.png` is a 1254 × 1254 RGB8 PNG, also reached through
+`artifacts/line-3/wall.png`. `dist/line-3/33.jpg` is the 512 × 512 JPEG, and
+`33.json` references the actual wall SHA-256. See [the local review](round-33-review.json)
+for dimensions, formats, hashes, preservation checks and visual limitations.
