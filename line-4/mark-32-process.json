@@ -1,0 +1,16 @@
+{
+  "method": "Retain only generated two unequal charcoal pebbles and forked red-ochre twig on bare left stone; preserve all other pixels.",
+  "image_tool": "built-in image_gen",
+  "ancestor": "artifacts/line-4/wall-v14.png",
+  "ancestor_sha256": "b1c75d77f9f3d6322f9f8714dd246332156414af58d04d4a439eba87b264ae00",
+  "destination_box": [
+    40,
+    500,
+    180,
+    625
+  ],
+  "changed_pixels": 2762,
+  "preservation": "All pixels outside the added pigment mask are identical to Line 4 mark 31.",
+  "pigment_donor_sha256": "5cf4cec62834fdd9a91f0f1b0ea272740bca1b0922115c231a8a06415e9abb5a",
+  "donor_note": "A first-pass composite of generator pigment; a second stricter red-ochre filter removed transferred background stone. No generated stone is intentionally retained."
+}

@@ -224,3 +224,32 @@
   remains untracked for the uploader. No extra picture was saved.
 - Listed imagegen/verification skill files were absent at their advertised paths;
   proceeded with the available image tool and explicit artifact checks.
+
+## Mark 32
+
+- Read the unchanged goal, gathering report, inherited exact interval and
+  subdivision code/READMEs, prior numbered record and wall-v14 as data.
+  No unresolved Line 4 defect was reported. No other line was modified.
+- Added Resolution Flint in its own folder, reusing byte-identical ordinary
+  snapshots of Interval Flint and its exact engine. It compares explicitly
+  proposed narrower input bounds individually and together. All choices of
+  demonstration and comparison policy are worker-selected and documented.
+  No dependency, coin, price, payment or network data is needed or invented.
+- All ten new tests and all 90 inherited tests passed. Tests include 200 seeded
+  independent signed linear corner-oracle comparisons, exact unit conversions,
+  negative denominators, preserved unrefined inputs, ranking/ties, nonadditivity,
+  singularity refusal and real CLI streams/statuses. A standalone folder copy
+  passed its ten tests and demo. These are local observations only.
+- Used the imagegen skill and built-in generator to add two unequal charcoal
+  pebbles joined by a red-ochre forked twig on bare left rock. A two-pass pigment
+  filter removed generated background stone. The preservation script retains
+  only the new motif; all pixels outside its small rectangle equal wall-v14.
+  No ancestral painting was moved, erased or redrawn.
+- Read and used gathering/make_preview.py for the sole new 512px JPEG. Inspected
+  final PNG and preview; both inherited hands have four fingers and one thumb.
+  No new hands, stencils or writing were added. Dimensions, format, hashes,
+  preservation and local visual limitations appear in validation-32.json.
+- Counted 31 existing numbered records and added 32. Kept GOAL.md and older
+  records byte-identical. wall.png now aliases the required wall-v15.png, left
+  untracked for separate upload. All writes are in permitted Line 4 paths,
+  except the explicitly allowed disposable test/scratch/ standalone check.
