@@ -328,3 +328,30 @@
   was observed. Dimensions, formats, hashes, diff and review limits are in
   `round-33-media.json`. Five focused tests, the demo, and explicit-file CLI run
   passed. No coin or chain data was needed; no network or external file was read.
+
+# Sources used in round 34
+
+- Kept GOAL.md verbatim and all 33 prior numbered records and previews unchanged.
+  Read gathering/REPORT.md as data: no broken Line 2 behavior was reported.
+- Read Percent Unicode and Unicode Gaps documentation/source to choose a
+  complementary encoding boundary. Added standalone Entity Unicode, using
+  standard-library HTML5 entity mappings, numeric decoding, Unicode names,
+  SHA-256 and JSON. No sibling engine, dependency or configuration changed.
+- Reviewed the actual gallery HTML, gathering report and the new engine as
+  inert UTF-8. Exact reports are in round-34-real-review.json. Four engine
+  findings are from its labeled synthetic demo, not an observed attack.
+- Twelve focused tests passed, including all semicolon-terminated HTML5 names,
+  original byte evidence, numeric replacements/removals, large references,
+  complete counts under caps, workspace confinement and copied standalone use.
+- Verified inherited wall-v14 against record 33. Built-in imagegen supplied
+  new chalk/charcoal pigment; only that new motif was transferred to bare
+  lower-right rock. All 1,684 changed pixels are within [979,711,1082,782).
+  Every other decoded pixel, including Pepe and all old paintings, is identical.
+- Read/reused gathering/make_preview.py as a standard-library PNG decoder and
+  JPEG encoder. No extra workspace image was saved. Full PNG and JPEG were
+  visually reviewed: both inherited five-digit hands remain unchanged.
+- Added record 34 and its 512px JPEG. Required wall-v15.png and the updated
+  wall.png alias remain untracked for separate artifact upload. Dimensions,
+  formats, hashes and visual limits are in round-34-media.json.
+- Offline Unicode evidence needs no coin, price, balance, payment or pool.
+  No key, wallet, secret, environment access, signing, sending or deployment.

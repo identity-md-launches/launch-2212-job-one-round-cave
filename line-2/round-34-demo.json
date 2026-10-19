@@ -1,0 +1,84 @@
+{
+  "analysis_complete": true,
+  "counts_by_kind": {
+    "non-ascii-or-control": 4
+  },
+  "coverage": "Exact semicolon-terminated HTML5 named or decimal/hex numeric references decoding to non-ASCII, controls, or empty text.",
+  "detail_cap": 2,
+  "details": [
+    {
+      "decoded_scalars": [
+        {
+          "category": "Ll",
+          "codepoint": "U+0456",
+          "name": "CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I"
+        }
+      ],
+      "kind": "non-ascii-or-control",
+      "source_after_hex": "6e0a6c6162656c3d264e6f7445717561",
+      "source_before_hex": "6f776e65723d61646d",
+      "source_byte_column": 10,
+      "source_byte_range": [
+        9,
+        16
+      ],
+      "source_line": 1,
+      "source_reference_bytes": 7,
+      "source_reference_omitted_bytes": 0,
+      "source_reference_prefix": "&#x456;",
+      "source_span_sha256": "773db9baccb216fad2d463e3e8ae494dd04581e79ad5d770a0c868e72d87de4e"
+    },
+    {
+      "decoded_scalars": [
+        {
+          "category": "Sm",
+          "codepoint": "U+2242",
+          "name": "MINUS TILDE"
+        },
+        {
+          "category": "Mn",
+          "codepoint": "U+0338",
+          "name": "COMBINING LONG SOLIDUS OVERLAY"
+        }
+      ],
+      "kind": "non-ascii-or-control",
+      "source_after_hex": "206761703d265a65726f576964746853",
+      "source_before_hex": "6d2623783435363b6e0a6c6162656c3d",
+      "source_byte_column": 7,
+      "source_byte_range": [
+        24,
+        39
+      ],
+      "source_line": 2,
+      "source_reference_bytes": 15,
+      "source_reference_omitted_bytes": 0,
+      "source_reference_prefix": "&NotEqualTilde;",
+      "source_span_sha256": "97fcd5a0e6768c9f13c4671f9eddfdff47bca96ddfba8441d2ab99b8a440bda7"
+    }
+  ],
+  "entity_table_sha256": "6e4aa7bfe85770b63debba96312da43534a2a9aba20e83163af7be66e7508a2e",
+  "finding_count": 4,
+  "limitations": [
+    "Lexical review only: no HTML context, rendering, script execution or browser safety claim.",
+    "No semicolonless, recursive, percent, JSON or literal Unicode analysis.",
+    "Numeric references use Python HTML5 replacement/removal rules; decoded scalars are not necessarily the written numeric value.",
+    "References can be legitimate; unknown names and printable-ASCII decodings are not findings.",
+    "Coordinates use original UTF-8 bytes, zero-based half-open ranges and one-based LF-only lines/byte columns.",
+    "Output is ASCII JSON for terminal review, not HTML sanitization; source snippets are unredacted.",
+    "Zero findings does not establish safety. Hashes identify bytes, not authorship or authenticity."
+  ],
+  "omitted_details": 2,
+  "python_version": [
+    3,
+    12,
+    3
+  ],
+  "recognized_references": 5,
+  "retained_details": 2,
+  "schema_version": 1,
+  "source_bytes": 86,
+  "source_kind": "synthetic-demo",
+  "source_sha256": "4b1c6a8faed9e6b0fea8bd286f61781204ad0f0f0719edc798f7b722f990a8dc",
+  "tool": "entity-unicode/1",
+  "unicode_version": "15.0.0"
+}

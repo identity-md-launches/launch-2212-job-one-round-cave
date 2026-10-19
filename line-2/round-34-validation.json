@@ -1,0 +1,25 @@
+{
+  "tool_tests": {
+    "command": "python3 -B -m unittest discover -s line-2/tools/entity-unicode -p 'test_*.py' -v",
+    "passed": 12,
+    "failed": 0
+  },
+  "demo": {
+    "findings": 4,
+    "retained": 2,
+    "omitted": 2,
+    "exit": 0
+  },
+  "goal_bytes_unchanged": true,
+  "older_records_unchanged": 33,
+  "record_shape_and_image_hash_valid": true,
+  "required_output_exists_and_untracked": true,
+  "preview_dimensions": [
+    512,
+    512
+  ],
+  "preview_format": "baseline JPEG RGB8",
+  "new_files_under_size_limit": true,
+  "modified_paths_in_scope": true,
+  "media_review": "round-34-media.json"
+}

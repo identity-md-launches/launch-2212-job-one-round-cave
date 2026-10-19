@@ -1,0 +1,200 @@
+[
+  {
+    "path": "dist/index.html",
+    "report": {
+      "schema_version": 1,
+      "tool": "entity-unicode/1",
+      "source_sha256": "62e6c617e4cf1bbc919335b3e39008d17b9c2066e4c08359e24b8ad58d8681f1",
+      "source_bytes": 70793,
+      "unicode_version": "15.0.0",
+      "python_version": [
+        3,
+        12,
+        3
+      ],
+      "entity_table_sha256": "6e4aa7bfe85770b63debba96312da43534a2a9aba20e83163af7be66e7508a2e",
+      "analysis_complete": true,
+      "recognized_references": 0,
+      "finding_count": 0,
+      "counts_by_kind": {},
+      "detail_cap": 10,
+      "retained_details": 0,
+      "omitted_details": 0,
+      "details": [],
+      "coverage": "Exact semicolon-terminated HTML5 named or decimal/hex numeric references decoding to non-ASCII, controls, or empty text.",
+      "limitations": [
+        "Lexical review only: no HTML context, rendering, script execution or browser safety claim.",
+        "No semicolonless, recursive, percent, JSON or literal Unicode analysis.",
+        "Numeric references use Python HTML5 replacement/removal rules; decoded scalars are not necessarily the written numeric value.",
+        "References can be legitimate; unknown names and printable-ASCII decodings are not findings.",
+        "Coordinates use original UTF-8 bytes, zero-based half-open ranges and one-based LF-only lines/byte columns.",
+        "Output is ASCII JSON for terminal review, not HTML sanitization; source snippets are unredacted.",
+        "Zero findings does not establish safety. Hashes identify bytes, not authorship or authenticity."
+      ]
+    }
+  },
+  {
+    "path": "gathering/REPORT.md",
+    "report": {
+      "schema_version": 1,
+      "tool": "entity-unicode/1",
+      "source_sha256": "3b8309dec3bcc358075b139478c0d0d0297b0c4b6f9eec7ec15fb2bc6788645c",
+      "source_bytes": 7530,
+      "unicode_version": "15.0.0",
+      "python_version": [
+        3,
+        12,
+        3
+      ],
+      "entity_table_sha256": "6e4aa7bfe85770b63debba96312da43534a2a9aba20e83163af7be66e7508a2e",
+      "analysis_complete": true,
+      "recognized_references": 0,
+      "finding_count": 0,
+      "counts_by_kind": {},
+      "detail_cap": 10,
+      "retained_details": 0,
+      "omitted_details": 0,
+      "details": [],
+      "coverage": "Exact semicolon-terminated HTML5 named or decimal/hex numeric references decoding to non-ASCII, controls, or empty text.",
+      "limitations": [
+        "Lexical review only: no HTML context, rendering, script execution or browser safety claim.",
+        "No semicolonless, recursive, percent, JSON or literal Unicode analysis.",
+        "Numeric references use Python HTML5 replacement/removal rules; decoded scalars are not necessarily the written numeric value.",
+        "References can be legitimate; unknown names and printable-ASCII decodings are not findings.",
+        "Coordinates use original UTF-8 bytes, zero-based half-open ranges and one-based LF-only lines/byte columns.",
+        "Output is ASCII JSON for terminal review, not HTML sanitization; source snippets are unredacted.",
+        "Zero findings does not establish safety. Hashes identify bytes, not authorship or authenticity."
+      ]
+    }
+  },
+  {
+    "path": "line-2/tools/entity-unicode/entity_unicode.py",
+    "report": {
+      "schema_version": 1,
+      "tool": "entity-unicode/1",
+      "source_sha256": "2b581a96045f77b9bba3c6d91507a0e029b41bc4a3071de1558acbf85d3c8158",
+      "source_bytes": 6240,
+      "unicode_version": "15.0.0",
+      "python_version": [
+        3,
+        12,
+        3
+      ],
+      "entity_table_sha256": "6e4aa7bfe85770b63debba96312da43534a2a9aba20e83163af7be66e7508a2e",
+      "analysis_complete": true,
+      "recognized_references": 5,
+      "finding_count": 4,
+      "counts_by_kind": {
+        "non-ascii-or-control": 4
+      },
+      "detail_cap": 10,
+      "retained_details": 4,
+      "omitted_details": 0,
+      "details": [
+        {
+          "source_byte_range": [
+            427,
+            434
+          ],
+          "source_line": 17,
+          "source_byte_column": 19,
+          "source_span_sha256": "773db9baccb216fad2d463e3e8ae494dd04581e79ad5d770a0c868e72d87de4e",
+          "source_reference_prefix": "&#x456;",
+          "source_reference_bytes": 7,
+          "source_reference_omitted_bytes": 0,
+          "source_before_hex": "4d4f203d2062276f776e65723d61646d",
+          "source_after_hex": "6e5c6e6c6162656c3d264e6f74457175",
+          "kind": "non-ascii-or-control",
+          "decoded_scalars": [
+            {
+              "codepoint": "U+0456",
+              "name": "CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I",
+              "category": "Ll"
+            }
+          ]
+        },
+        {
+          "source_byte_range": [
+            443,
+            458
+          ],
+          "source_line": 17,
+          "source_byte_column": 35,
+          "source_span_sha256": "97fcd5a0e6768c9f13c4671f9eddfdff47bca96ddfba8441d2ab99b8a440bda7",
+          "source_reference_prefix": "&NotEqualTilde;",
+          "source_reference_bytes": 15,
+          "source_reference_omitted_bytes": 0,
+          "source_before_hex": "2623783435363b6e5c6e6c6162656c3d",
+          "source_after_hex": "206761703d265a65726f576964746853",
+          "kind": "non-ascii-or-control",
+          "decoded_scalars": [
+            {
+              "codepoint": "U+2242",
+              "name": "MINUS TILDE",
+              "category": "Sm"
+            },
+            {
+              "codepoint": "U+0338",
+              "name": "COMBINING LONG SOLIDUS OVERLAY",
+              "category": "Mn"
+            }
+          ]
+        },
+        {
+          "source_byte_range": [
+            463,
+            479
+          ],
+          "source_line": 17,
+          "source_byte_column": 55,
+          "source_span_sha256": "e7154a8e43f23e1f752e1faea3f412d23158877f5c52bf71cf776ee298ac3197",
+          "source_reference_prefix": "&ZeroWidthSpace;",
+          "source_reference_bytes": 16,
+          "source_reference_omitted_bytes": 0,
+          "source_before_hex": "457175616c54696c64653b206761703d",
+          "source_after_hex": "20626964693d2623383233383b206e6f",
+          "kind": "non-ascii-or-control",
+          "decoded_scalars": [
+            {
+              "codepoint": "U+200B",
+              "name": "ZERO WIDTH SPACE",
+              "category": "Cf"
+            }
+          ]
+        },
+        {
+          "source_byte_range": [
+            485,
+            492
+          ],
+          "source_line": 17,
+          "source_byte_column": 77,
+          "source_span_sha256": "e2d577dd8108cbf20f9013365fca39fdd75c595eb4a04761fc7870275ca99470",
+          "source_reference_prefix": "&#8238;",
+          "source_reference_bytes": 7,
+          "source_reference_omitted_bytes": 0,
+          "source_before_hex": "6964746853706163653b20626964693d",
+          "source_after_hex": "206e6f726d616c3d26616d703b270a0a",
+          "kind": "non-ascii-or-control",
+          "decoded_scalars": [
+            {
+              "codepoint": "U+202E",
+              "name": "RIGHT-TO-LEFT OVERRIDE",
+              "category": "Cf"
+            }
+          ]
+        }
+      ],
+      "coverage": "Exact semicolon-terminated HTML5 named or decimal/hex numeric references decoding to non-ASCII, controls, or empty text.",
+      "limitations": [
+        "Lexical review only: no HTML context, rendering, script execution or browser safety claim.",
+        "No semicolonless, recursive, percent, JSON or literal Unicode analysis.",
+        "Numeric references use Python HTML5 replacement/removal rules; decoded scalars are not necessarily the written numeric value.",
+        "References can be legitimate; unknown names and printable-ASCII decodings are not findings.",
+        "Coordinates use original UTF-8 bytes, zero-based half-open ranges and one-based LF-only lines/byte columns.",
+        "Output is ASCII JSON for terminal review, not HTML sanitization; source snippets are unredacted.",
+        "Zero findings does not establish safety. Hashes identify bytes, not authorship or authenticity."
+      ]
+    }
+  }
+]

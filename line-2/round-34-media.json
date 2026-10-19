@@ -1,0 +1,32 @@
+{
+  "wall": {
+    "path": "artifacts/line-2/wall-v15.png",
+    "format": "PNG",
+    "mode": "RGB8",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 3976708,
+    "sha256": "8d4431d4485b5e598b5b6dd4b21c1d40253ae9a8b9039e605b79fd8582f17d41"
+  },
+  "preview": {
+    "path": "dist/line-2/34.jpg",
+    "format": "baseline JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 90225,
+    "quality": 40,
+    "sha256": "c075b594d99addf73ad06f4631fe87ad961d6e3b41264cf5dce401d6848c79c0"
+  },
+  "ancestor_sha256": "a4ab466e242f0ce416fe0b5d63d85374b04f2af865b35366323208c9b127a1bf",
+  "changed_pixels": 1684,
+  "changed_bounds_half_open": [
+    979,
+    711,
+    1082,
+    782
+  ],
+  "outside_changed_bounds_identical": true,
+  "process": "Built-in imagegen edited the inherited wall. Only newly generated pigment was transferred to bare lower-right rock; original pixels are retained everywhere else. No donor image is delivered.",
+  "unmet_visual_requirements": [],
+  "review": "Full PNG and 512px JPEG inspected. Original Pepe, rock, cracks, roots, torchlight, framing and ancestor paintings preserved. Counted five digits on each inherited hand: four fingers and a thumb. No new hands. No letters, numbers, captions, signatures, logos, watermarks, borders or frames observed. New motif is small and low contrast in the preview. Local visual review, not independent approval."
+}
