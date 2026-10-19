@@ -1,36 +1,36 @@
 {
   "structural_checks": "passed",
-  "tests_passed": 696,
-  "cli_examples": 77,
+  "tests_passed": 743,
+  "cli_examples": 86,
   "line_files_unchanged": true,
   "goals": 4,
-  "numbered_records": 149,
-  "painted_records": 62,
-  "future_records": 87,
-  "unchanged_engine_snapshots": 4,
+  "numbered_records": 153,
+  "painted_records": 67,
+  "future_records": 86,
+  "unchanged_engine_snapshots": 2,
   "wall": {
-    "path": "artifacts/gathering/wall-v14.png",
+    "path": "artifacts/gathering/wall-v15.png",
     "format": "PNG RGB8",
     "width": 1254,
     "height": 1254,
-    "bytes": 4009707,
-    "sha256": "262b4871ab617a9df293f0cd40973748743bd08e8b411f608816c73ffa6461d6",
+    "bytes": 4010820,
+    "sha256": "e36d5e5e4a83440e327c11d079cd8d84a72a90ae4e61935be87d1f28ad682ba9",
     "declared_output_tracked": false
   },
   "preview": {
-    "path": "dist/gathering/14.jpg",
+    "path": "dist/gathering/15.jpg",
     "format": "JPEG baseline",
     "width": 512,
     "height": 512,
-    "bytes": 98940
+    "bytes": 98996
   },
   "pixel_preservation": {
-    "changed_pixels": 2760,
+    "changed_pixels": 1333,
     "allowed_box": [
-      870,
-      1040,
-      1150,
-      1160
+      360,
+      1000,
+      495,
+      1080
     ],
     "all_pixels_outside_added_motif_unchanged": true
   },

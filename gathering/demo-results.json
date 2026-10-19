@@ -2,6 +2,204 @@
   "checks_passed": true,
   "examples": [
     {
+      "name": "dimensioned continuous metric handoff",
+      "command": [
+        "python3",
+        "-B",
+        "shared/metric-measure/metric_measure.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {}
+    },
+    {
+      "name": "exact continuous metric family",
+      "command": [
+        "python3",
+        "-B",
+        "line-1/tools/metric-verdict/metric_verdict.py",
+        "--demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {
+        "candidates": [
+          {
+            "candidate": "small_step",
+            "counting": {
+              "extreme_assignments": 2,
+              "gcd_in_millionths": 125000,
+              "nonzero_pairs": 8,
+              "reduced_absolute_sum": 8,
+              "sign_assignments": 256,
+              "zero_pairs": 0
+            },
+            "direction": "candidate ahead",
+            "holm_p": {
+              "denominator": 64,
+              "numerator": 1
+            },
+            "mean_candidate_minus_baseline": {
+              "denominator": 8,
+              "numerator": -1
+            },
+            "raw_p": {
+              "denominator": 128,
+              "numerator": 1
+            },
+            "reject": true,
+            "reject_with_candidate_ahead": true
+          },
+          {
+            "candidate": "large_step",
+            "counting": {
+              "extreme_assignments": 2,
+              "gcd_in_millionths": 500000,
+              "nonzero_pairs": 8,
+              "reduced_absolute_sum": 8,
+              "sign_assignments": 256,
+              "zero_pairs": 0
+            },
+            "direction": "candidate ahead",
+            "holm_p": {
+              "denominator": 64,
+              "numerator": 1
+            },
+            "mean_candidate_minus_baseline": {
+              "denominator": 2,
+              "numerator": -1
+            },
+            "raw_p": {
+              "denominator": 128,
+              "numerator": 1
+            },
+            "reject": true,
+            "reject_with_candidate_ahead": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "continuous paired magnitude",
+      "command": [
+        "python3",
+        "-B",
+        "line-1/tools/paired-magnitude/paired_magnitude.py",
+        "--demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {}
+    },
+    {
+      "name": "HTML entity Unicode",
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/entity-unicode/entity_unicode.py",
+        "--demo",
+        "--max-details",
+        "2"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {
+        "analysis_complete": true,
+        "finding_count": 4
+      }
+    },
+    {
+      "name": "HTML entity review of gallery",
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/entity-unicode/entity_unicode.py",
+        "--file",
+        "dist/index.html"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {
+        "analysis_complete": true,
+        "finding_count": 0
+      }
+    },
+    {
+      "name": "timeline pairwise backbone",
+      "command": [
+        "python3",
+        "-B",
+        "line-3/tools/timeline-backbone/backbone.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {
+        "verified": true,
+        "replay": {
+          "clock_uncertainty_ms": 250,
+          "events": 3,
+          "omitted": 0,
+          "sources": 3,
+          "verified": true
+        }
+      }
+    },
+    {
+      "name": "clock sensitivity profiles",
+      "command": [
+        "python3",
+        "-B",
+        "line-3/tools/timeline-sensitivity/sensitivity.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {
+        "replay": {
+          "clock_uncertainty_ms": 500,
+          "events": 2,
+          "omitted": 1,
+          "sources": 1,
+          "verified": true
+        }
+      }
+    },
+    {
+      "name": "exact proposed measurement refinements",
+      "command": [
+        "python3",
+        "-B",
+        "line-4/tools/resolution-flint/resolution_flint.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {}
+    },
+    {
+      "name": "exact interval subdivision",
+      "command": [
+        "python3",
+        "-B",
+        "line-4/tools/subdivision-flint/subdivision_flint.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {}
+    },
+    {
       "name": "shared original log spacing receipt",
       "command": [
         "python3",

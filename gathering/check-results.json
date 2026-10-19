@@ -42,6 +42,11 @@
       "exit_code": 0
     },
     {
+      "suite": "line-1/tools/metric-verdict",
+      "tests": 10,
+      "exit_code": 0
+    },
+    {
       "suite": "line-1/tools/paired-power",
       "tests": 11,
       "exit_code": 0
@@ -59,6 +64,11 @@
     {
       "suite": "line-2/tools/bidi-scope",
       "tests": 18,
+      "exit_code": 0
+    },
+    {
+      "suite": "line-2/tools/entity-unicode",
+      "tests": 12,
       "exit_code": 0
     },
     {
@@ -137,6 +147,11 @@
       "exit_code": 0
     },
     {
+      "suite": "line-3/tools/timeline-backbone",
+      "tests": 6,
+      "exit_code": 0
+    },
+    {
       "suite": "line-3/tools/timeline-diff",
       "tests": 8,
       "exit_code": 0
@@ -179,6 +194,11 @@
     {
       "suite": "line-4/tools/interval-flint",
       "tests": 9,
+      "exit_code": 0
+    },
+    {
+      "suite": "line-4/tools/resolution-flint",
+      "tests": 10,
       "exit_code": 0
     },
     {
@@ -249,6 +269,11 @@
     {
       "suite": "shared/log-spacing-review",
       "tests": 12,
+      "exit_code": 0
+    },
+    {
+      "suite": "shared/metric-measure",
+      "tests": 9,
       "exit_code": 0
     },
     {
@@ -482,8 +507,8 @@
       "unicode_version": "15.0.0"
     }
   ],
-  "test_count": 696,
+  "test_count": 743,
   "line_files_unchanged": true,
-  "line_file_count": 345,
+  "line_file_count": 379,
   "line_3_fixture_note": "Unmodified source and suite copied to test/scratch/time-flint before discovery."
 }

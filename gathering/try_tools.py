@@ -8,6 +8,15 @@ import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 CASES = [
+ ('dimensioned continuous metric handoff', ['shared/metric-measure/metric_measure.py', 'demo'], 0),
+ ('exact continuous metric family', ['line-1/tools/metric-verdict/metric_verdict.py', '--demo'], 0),
+ ('continuous paired magnitude', ['line-1/tools/paired-magnitude/paired_magnitude.py', '--demo'], 0),
+ ('HTML entity Unicode', ['line-2/tools/entity-unicode/entity_unicode.py', '--demo', '--max-details', '2'], 0),
+ ('HTML entity review of gallery', ['line-2/tools/entity-unicode/entity_unicode.py', '--file', 'dist/index.html'], 0),
+ ('timeline pairwise backbone', ['line-3/tools/timeline-backbone/backbone.py', 'demo'], 0),
+ ('clock sensitivity profiles', ['line-3/tools/timeline-sensitivity/sensitivity.py', 'demo'], 0),
+ ('exact proposed measurement refinements', ['line-4/tools/resolution-flint/resolution_flint.py', 'demo'], 0),
+ ('exact interval subdivision', ['line-4/tools/subdivision-flint/subdivision_flint.py', 'demo'], 0),
  ("shared original log spacing receipt", ["shared/log-spacing-review/log_spacing_review.py", "demo"], 0),
  ("whole-cluster deletion stability", ["line-1/tools/cluster-stability/cluster_stability.py", "--demo", "--max-details", "1"], 0),
  ("invisible Unicode spacing", ["line-2/tools/unicode-gaps/unicode_gaps.py", "--demo", "--max-details", "2"], 0),

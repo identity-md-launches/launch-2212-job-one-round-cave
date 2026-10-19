@@ -46,7 +46,7 @@ def main():
              for n in range(1, 5)]
     (DIST / "goals.json").write_text(json.dumps(goals, ensure_ascii=True, indent=2)+"\n", encoding="utf-8")
     sections = []
-    tools = ["Paired Verdict + Candidate Ladder + Paired Power + Frozen Benchmark + Benchmark Seal + Evidence Receipt + Policy Benchmark + Case Influence + Cluster Influence + Cluster Verdict + Cluster Stability", "Unicode Lantern + JSON Lantern + JSON Citations + Unicode Replay + Unicode Seal + Unicode Window + Unicode Text Window + Unicode Crosscheck + JSON Crosscheck + Unicode Delta + Bidi Scope + Unicode Gaps", "Time Flint + Timeline Replay + Order Witness + Clock Margin + Timeline Diff + Timeline Window + Timeline Peaks + Timeline Gaps + Timeline Load", "Unit Flint + Calculation Receipt + Interval Flint + Round Flint + Tolerance Flint + Worksheet Flint + Worksheet Receipt"]
+    tools = ["Reproducible benchmarks", "Unicode evidence", "Incident timelines", "Exact dimensional calculations"]
     for folder, title, goal in [("gathering", "Gathering", "Four crafts meet. Evidence is checked, shared, and carried onward.")]+[
             (f'line-{g["line"]}', f'Line {g["line"]} / {tools[g["line"]-1]}', g["goal"]) for g in goals]:
         paths = sorted((DIST / folder).glob("[0-9][0-9].json"), reverse=True)
@@ -72,14 +72,14 @@ def main():
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--stone);color:var(--chalk);font:16px/1.65 system-ui,sans-serif}
 a{color:var(--ochre);text-underline-offset:4px}a:focus-visible,summary:focus-visible{outline:3px solid var(--ochre);outline-offset:5px}
 header,main,footer{max-width:1160px;margin:auto;padding:28px}header{display:flex;justify-content:space-between;gap:24px;align-items:center;border-bottom:1px solid var(--line)}
-nav{display:flex;flex-wrap:wrap;gap:18px}nav a{text-decoration:none;font-size:14px}.brand{font-weight:700;letter-spacing:.12em;font-size:13px;text-transform:uppercase}
-.hero{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;padding:60px 0 40px}.hero img{width:100%;height:auto}.eyebrow{color:var(--ochre);text-transform:uppercase;font-size:11px;letter-spacing:.17em}
-h1,h2,h3{font-family:Georgia,serif;line-height:1.15;font-weight:400}h1{font-size:clamp(42px,6vw,78px);margin:16px 0 24px}h2{font-size:36px;margin:10px 0 18px}h3{font-size:25px;margin:8px 0 12px}
+nav{display:flex;flex-wrap:wrap;gap:18px}nav a{text-decoration:none;font-size:14px}.brand{font-weight:700;font-size:16px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;padding:60px 0 40px}.hero img{width:100%;height:auto}.eyebrow{color:var(--ochre);font-size:14px}
+h1,h2,h3{font-family:Georgia,serif;line-height:1.15;font-weight:400}h1{font-size:clamp(42px,6vw,78px);margin:16px 0 24px}h2{font-size:32px;overflow-wrap:anywhere;margin:10px 0 18px}h3{font-size:25px;margin:8px 0 12px}
 p{margin:12px 0}.intro,.goal{color:var(--muted);max-width:740px}.intro{font-size:19px}.status{border:1px solid var(--line);background:var(--panel);padding:24px;margin:28px 0 50px}
 .status p{margin:5px 0}.status code{overflow-wrap:anywhere;color:var(--chalk);font-size:13px}.status small{color:var(--muted)}
-section{border-top:1px solid var(--line);padding:40px 0;scroll-margin-top:20px}.painted-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:25px}
+section{border-top:1px solid var(--line);padding:40px 0;scroll-margin-top:20px}.painted-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:24px;margin-top:25px}
 .mark{border:1px solid var(--line);background:var(--panel);overflow:hidden;max-width:540px}.mark img{width:100%;height:auto;display:block;aspect-ratio:1}.caption{padding:22px}.caption p{color:var(--muted)}
-.record{font-size:13px}.future-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin-top:20px}.future .caption{padding:15px}.future h3{font-size:20px}
+.record{font-size:13px}.future-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(180px,100%),1fr));gap:16px;margin-top:20px}.future .caption{padding:15px}.future h3{font-size:20px}
 .unpainted{padding:24px 16px;background:#30251b;color:var(--muted);font-size:12px}.future p{font-size:13px}details{margin-top:28px}summary{cursor:pointer;color:var(--ochre)}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px}footer p{max-width:850px}
 @media(max-width:700px){header{align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr;gap:20px;padding-top:28px}.hero img{max-width:512px}header,main,footer{padding:20px}h1{font-size:48px}}
@@ -91,10 +91,10 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px}footer
 <p>Compare evidence. Reveal hidden text. Order events. Check a measure.</p>
 <a href="goals.json">Read the four goals</a> · <a href="one.json">One / record 736</a></div>
 <a href="__FULL__"><img width="512" height="512" src="__HERO__" alt="__MEANING__"></a></div>
-<aside class="status" aria-label="Fourteenth gathering checks"><p class="eyebrow">A useful thing carried between lines</p>
-<p><strong>The Shared Handoff</strong> keeps Line 3’s verified timeline pack joined to Line 2’s review of selected invisible characters and unusual spacing. Inspect the exact original log bytes, including undated lines, with reproducible citations.</p>
-<p><code>python3 -B shared/log-spacing-review/log_spacing_review.py demo</code></p>
-<small>Run from the repository root. Offline, standard library only. The synthetic example exposes four selected characters, including a BOM and spacing in an undated line. Counts survive display caps; a rehashed altered citation is rejected. Findings need human review; clock bounds remain assertions. No new coin is needed.</small></aside>
+<aside class="status" aria-label="Fifteenth gathering checks"><p class="eyebrow">A useful thing carried between lines</p>
+<p><strong>Metric Measure</strong> joins Line 1’s exact continuous-metric comparisons to Line 4’s dimensional arithmetic. Keep statistical evidence separate from a declared minimum observed improvement.</p>
+<p><code>python3 -B shared/metric-measure/metric_measure.py demo</code></p>
+<small>Run from the repository root. Offline, standard library only. The synthetic example detects two differences from zero; only one observed mean reaches a declared 0.25 ms minimum. Units convert exactly. An observed threshold comparison is not a population effect test. Independent fair signs remain an assumption. No new coin is needed.</small></aside>
 __SECTIONS__</main><footer><p>Every numbered record appears under its wall, with painted work and future slots each in descending order. Preview images are local JPEGs; select a painting to open its full PNG artifact. This page needs no scripts, fonts or external stylesheets.</p>
 <p>ZTO first, IMD second whenever work needs a coin. These four offline tools need neither. Test results describe checks performed; they are not a certification of safety.</p></footer></body></html>
 '''

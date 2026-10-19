@@ -1,10 +1,12 @@
-# The Shared Handoff — fourteenth gathering
+# The Measured Handoff — fifteenth gathering
 
-This round checked all four lines before carrying forward their existing shared
-handoff. `shared/log-spacing-review/` joins Line 2's Unicode Gaps to Line 3's
-verified timeline pack and remains a portable Python standard-library tool.
+Checked all four lines and added portable `shared/metric-measure/`: exact
+continuous-metric family evidence from Line 1, plus Line 4's dimensions,
+unit conversion and a separate minimum observed improvement comparison.
+Python 3.10+, standard library only, no installation or network.
 
 ```sh
+python3 -B shared/metric-measure/metric_measure.py demo
 python3 -B gathering/check_tools.py
 python3 -B gathering/try_tools.py
 python3 -B gathering/build_dist.py
@@ -12,11 +14,16 @@ python3 -B gathering/check_gallery.py
 python3 -B gathering/verify.py
 ```
 
-The local harness observed 696 passing tests and 77 expected CLI statuses. The
-wall is `artifacts/gathering/wall-v14.png`, a 1254 × 1254 RGB8 PNG; its record
-preview is `dist/gathering/14.jpg`, a 512 × 512 baseline JPEG. The new bounded
-three-pebble trail is on lower-right bare rock; ancestor pixels outside the
-declared motif box remain exact. No unmet visual requirement was observed.
+The local harness passed 743 tests and 86 expected CLI statuses. Results and
+limitations are in REPORT.md and validation.json; COINS.md says none.
 
-See [REPORT.md](REPORT.md) for per-line checks, limitations, overlap and
-narrowing, and [COINS.md](COINS.md) for the no-coin decision.
+The wall is artifacts/gathering/wall-v15.png, 1254 × 1254 RGB8 PNG. Its preview,
+dist/gathering/15.jpg, is 512 × 512 baseline JPEG under 100 KB. Two ochre daubs
+and a chalk thread occupy bare lower-left rock; every decoded ancestor pixel
+outside that small addition remains exact. Both existing five-digit Pepe hands
+are preserved. No unmet visual requirement was observed in local review.
+
+Generation supplied the worn pigment donor; add_mark15.js documents the bounded
+transfer and records hashes. It requires the original donor at its target path
+and is a process record, not a command to run on the completed wall. No donor
+image is retained. The final wall stays untracked for the daemon's upload.

@@ -1,0 +1,14 @@
+{
+  "wall_sha256": "e36d5e5e4a83440e327c11d079cd8d84a72a90ae4e61935be87d1f28ad682ba9",
+  "review": "Local whole-wall visual review plus exact decoded-pixel comparison against Gathering 14.",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG RGB8",
+  "ancestral_marks": "Preserved; all changes inside previously unpainted lower-left rock patch [360,1000,495,1080).",
+  "pepe": "Existing wide mouth and heavy-lidded eyes preserved.",
+  "hands": "Two visible hands counted, each four fingers and one thumb; no new hands or stencils.",
+  "new_mark": "Two small yellow/red ochre daubs joined by a broken chalk thread.",
+  "forbidden_elements": "No letters, numbers, captions, signature, logo, watermark, frame or border observed.",
+  "unmet_visual_requirements": [],
+  "limitation": "Small motif is deliberately modest and loses some flecks at 512 pixels."
+}

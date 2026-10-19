@@ -1,0 +1,25 @@
+{
+  "method": "Built-in image generation supplied an isolated worn pigment daub. Its pigment was sampled twice, tinted yellow/red ochre and joined by a hand-finished broken chalk thread on bare rock. Black donor background was excluded. All ancestor pixels outside the addition remain exact.",
+  "image_tool": "image_gen.imagegen",
+  "ancestor": "artifacts/gathering/wall-v14.png",
+  "ancestor_sha256": "262b4871ab617a9df293f0cd40973748743bd08e8b411f608816c73ffa6461d6",
+  "generated_donor_sha256": "e7b7ff436273065dcba38fd3f735c114154840b2112648c421ec38fe71d64fa1",
+  "donor_dimensions": [
+    1254,
+    1254
+  ],
+  "donor_crop": [
+    795,
+    495,
+    1080,
+    750
+  ],
+  "destination_box": [
+    360,
+    1000,
+    495,
+    1080
+  ],
+  "changed_pixels": 1333,
+  "preservation": "Every decoded pixel outside the addition box is identical to Gathering 14."
+}
