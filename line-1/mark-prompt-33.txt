@@ -1,0 +1,26 @@
+Installed native image edit (mcp__image__edit_image), input artifacts/line-1/wall.png,
+output artifacts/line-1/wall-v15.png, aspect ratio 1:1.
+
+Use case: precise-object-edit. Edit target is this inherited prehistoric cave wall.
+Preserve the entire square framing, cave rock, cracks, warm torch lighting, colors,
+and EVERY existing painting exactly, including both ochre Pepe frogs with wide
+mouths and heavy-lidded eyes. Add ONLY a small flat handmade worn earth-pigment
+motif on the empty rock in the lower-right at approximately x=960..1075,
+y=925..1020 on the 1254-square original: two horizontal charcoal balance twigs,
+each with a red ochre pebble at one end and a chalk-white pebble at the other,
+the second twig with the colors reversed. This represents swapping paired
+measurements. Pigment rubbed into rock, rough irregular charcoal and ochre,
+stone texture showing through; absolutely not realistic objects, dimensional
+rendering or a diagram. Do not alter any previous pigment. Add no hands,
+fingers or handprints. No letters, numbers, symbols resembling text, captions,
+signatures, logos, watermarks, borders or frames. Keep original dimensions.
+
+Review: returned donor was 1024-square and changed background, framing and
+ancestral drawings, with dimensional stones. None of its background or prior
+paint was accepted. finish_mark33.js flattened the first motif silhouettes into
+two earth-pigment rubbings, reversing pigments, on previously empty lower-right
+rock of the exact 1254-square inherited wall. All pixels outside the bounded
+new mark remain identical. The generated intermediate was overwritten with the
+finished whole wall. See wall-review-33.json for dimensions, SHA-256, pixel
+preservation and local visual limitations. Full wall and JPEG preview inspected;
+no unmet visual requirement observed.

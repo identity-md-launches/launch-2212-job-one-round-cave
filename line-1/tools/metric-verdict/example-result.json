@@ -1,0 +1,81 @@
+{
+  "alpha": {
+    "denominator": 20,
+    "numerator": 1
+  },
+  "assumptions": [
+    "Under each tested null, nonzero paired differences have independent fair signs conditional on their magnitudes.",
+    "A justified independent within-pair randomized swap under a sharp null, or a sign-symmetric independent difference model, can supply this assumption.",
+    "Independent cases or zero mean alone do not supply sign symmetry; correlated pairs require another model.",
+    "Fix metric, units, case set, pass/measurement procedure, candidate family, alpha and analysis before seeing outcomes."
+  ],
+  "better": "lower",
+  "candidates": [
+    {
+      "candidate": "small_step",
+      "counting": {
+        "extreme_assignments": 2,
+        "gcd_in_millionths": 125000,
+        "nonzero_pairs": 8,
+        "reduced_absolute_sum": 8,
+        "sign_assignments": 256,
+        "zero_pairs": 0
+      },
+      "direction": "candidate ahead",
+      "holm_p": {
+        "denominator": 64,
+        "numerator": 1
+      },
+      "mean_candidate_minus_baseline": {
+        "denominator": 8,
+        "numerator": -1
+      },
+      "raw_p": {
+        "denominator": 128,
+        "numerator": 1
+      },
+      "reject": true,
+      "reject_with_candidate_ahead": true
+    },
+    {
+      "candidate": "large_step",
+      "counting": {
+        "extreme_assignments": 2,
+        "gcd_in_millionths": 500000,
+        "nonzero_pairs": 8,
+        "reduced_absolute_sum": 8,
+        "sign_assignments": 256,
+        "zero_pairs": 0
+      },
+      "direction": "candidate ahead",
+      "holm_p": {
+        "denominator": 64,
+        "numerator": 1
+      },
+      "mean_candidate_minus_baseline": {
+        "denominator": 2,
+        "numerator": -1
+      },
+      "raw_p": {
+        "denominator": 128,
+        "numerator": 1
+      },
+      "reject": true,
+      "reject_with_candidate_ahead": true
+    }
+  ],
+  "cases": 8,
+  "family": [
+    "small_step",
+    "large_step"
+  ],
+  "fixture": "synthetic latency illustration, not measured system performance",
+  "input_sha256": "c73d90bcb4d8be69932d604c2a78e738cb3d99c0f26e80b77ad166847acd6b44",
+  "limitations": [
+    "No population generalization, practical-value threshold, confidence interval or adaptive-stopping guarantee is supplied.",
+    "A digest binds bytes, not measurement truth, authorship or preregistration time.",
+    "Two-sided rejection can favor the baseline; non-rejection does not establish equivalence."
+  ],
+  "method": "exact two-sided paired sign flips of the sum; inclusive tails; Holm family correction",
+  "schema": "metric-verdict-v1"
+}

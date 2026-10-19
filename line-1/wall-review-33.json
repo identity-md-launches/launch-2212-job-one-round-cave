@@ -1,0 +1,39 @@
+{
+  "wall": "artifacts/line-1/wall-v15.png",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG RGB8",
+  "bytes": 2863841,
+  "sha256": "01f8c5aba28780ffcc5db66545b22fe003436cca30165d1909dce28169643fa6",
+  "preview": {
+    "path": "dist/line-1/33.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 67272
+  },
+  "ancestor": "artifacts/line-1/wall-v14.png",
+  "ancestor_sha256": "05223df073a2954d35e09d1ac4d9cb23d7d15e88768fa2787b938419239d232f",
+  "bounds": [
+    825,
+    940,
+    993,
+    1040
+  ],
+  "changed_pixels": 2753,
+  "all_pixels_outside_bounds_identical": true,
+  "process": "Installed native image edit generated donor silhouettes. Flattened them into textured earth-pigment rubbings on the exact inherited wall; discarded all generated background and object shading. Generated intermediate overwritten by final wall.",
+  "visual_review": {
+    "pepe_wide_mouth_and_heavy_lidded_eyes_preserved": true,
+    "ancestral_hands_concealed": true,
+    "new_hands_or_stencils": 0,
+    "visible_digits_to_count": 0,
+    "prohibited_text_observed": false,
+    "unmet_visual_requirements": []
+  },
+  "limitations": [
+    "Local visual review only; no independent visual approval.",
+    "Fine wear is less distinct in the 512-pixel preview."
+  ],
+  "preview_location": "Required numbered JPEG beside the record, as explicitly specified by FILES; no other new pictures outside artifacts."
+}

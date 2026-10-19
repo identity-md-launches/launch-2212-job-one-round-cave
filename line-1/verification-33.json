@@ -1,0 +1,37 @@
+{
+  "new_record": 33,
+  "tests": {
+    "command": "python3 -B -m unittest discover -s line-1/tools/metric-verdict -v",
+    "passed": 10,
+    "failed": 0
+  },
+  "documented_demo_passed": true,
+  "documented_pinned_csv_command_passed": true,
+  "standalone_offline_cli_passed": true,
+  "goal_byte_identical_to_HEAD": true,
+  "all_prior_records_and_previews_byte_identical_to_HEAD": true,
+  "changes_within_allowed_paths": true,
+  "new_files_outside_artifacts_under_100000_bytes": true,
+  "wall": {
+    "path": "artifacts/line-1/wall-v15.png",
+    "format": "PNG RGB8",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "01f8c5aba28780ffcc5db66545b22fe003436cca30165d1909dce28169643fa6",
+    "bytes": 2863841
+  },
+  "preview": {
+    "path": "dist/line-1/33.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 67272
+  },
+  "record_matches_wall_sha256": true,
+  "unmet_visual_requirements": [],
+  "visual_review": "Full PNG and JPEG inspected locally. Existing Pepes preserved, hands concealed; no new hands or stencils, no text observed. No independent artistic approval.",
+  "limits": [
+    "Synthetic statistical fixture; no real system-performance claim.",
+    "Exact sign-flip model and documented computation budgets apply."
+  ]
+}
